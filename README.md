@@ -1,14 +1,10 @@
 # Flappy Dragon
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/04d0c128-348d-46fd-a3d5-2a763ea0038e/deploy-status)](https://app.netlify.com/sites/elated-williams-cd16dd/deploys)
-
-Official repository for [flappy dragon](https://www.meetup.com/BandungJS/events/262832383/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c34a28d-d9ae-48d5-ad21-15c4370cb606/deploy-status)](https://app.netlify.com/sites/flappy-dragon/deploys)
 
 ## Live
 
 [http://bit.ly/indosiar-dragon](http://bit.ly/indosiar-dragon)
-
-![qr-code](./docs/qr-code.png)
 
 ## How to start?
 
