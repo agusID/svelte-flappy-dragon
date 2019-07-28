@@ -2,11 +2,11 @@ import * as firebase from 'firebase/app'
 import 'firebase/database'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCpPOYISxSTRudgw1P6ttXTyMZDrpGWp6A',
-  authDomain: 'bandungjs-c3782.firebaseapp.com',
-  databaseURL: 'https://bandungjs-c3782.firebaseio.com',
-  projectId: 'bandungjs-c3782',
-  appId: '1:1085804661670:web:e9dbd4949057ccf2',
+  apiKey: "AIzaSyB33dEbf4_KpAWvqg3efOT6iFe4rwKuXk8",
+  authDomain: "svelte-flappy-bird.firebaseapp.com",
+  databaseURL: "https://svelte-flappy-bird.firebaseio.com",
+  projectId: "svelte-flappy-bird",
+  appId: "1:717567582978:web:2d5f652fe7680172"
 }
 
 firebase.initializeApp(firebaseConfig)
