@@ -179,7 +179,7 @@
       <div class="btn-play" on:click={playGame}>Back to Game</div>
     {/if}
     <div class="helmet-accesories">
-      <label class="helmet-title">#21 BandungJS</label>
+      <label class="helmet-title">Ralali TownHall</label>
       <div class="accessories"><strong>{participants}</strong> participant(s)</div>
     </div>
   </div>
