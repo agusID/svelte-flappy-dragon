@@ -504,6 +504,11 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
+abstract-nested-router@^0.1.3:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/abstract-nested-router/-/abstract-nested-router-0.1.5.tgz#68abb73c6165365531983e10c6764fb07504fb89"
+  integrity sha512-Xa88VP7TGQAwrsPqZq1YEyd41us4Bz9b0CKbnkorQ7Q7+2L6Hr3GNjEqHz3v/1GP3/JqqYQI/2ABSRGbDOWsrQ==
+
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -3755,13 +3760,6 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
-path-parser@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/path-parser/-/path-parser-4.2.0.tgz#2fbb3df2d49659a9a4cac88be7d8d5f4666814fb"
-  integrity sha512-MPPZiWTTp2I72VXmGQQfsn2ohrbd9QTbZSLYNS+HXsnQ37VbiLR/szO2R7DHaZA1V1scYxuxgyQerj+6kMTXtA==
-  dependencies:
-    search-params "2.1.3"
-
 path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
@@ -4302,11 +4300,6 @@ schema-utils@^2.0.1:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
 
-search-params@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/search-params/-/search-params-2.1.3.tgz#90b98964eaf3d0edef0f73e6e8307d1480020413"
-  integrity sha512-hHxU9ZGWpZ/lrFBIHndSnQae2in7ra+m+tBSoeAahSWDDgOgpZqs4bfaTZpljgNgAgTbjiQoJtZW6FKSsfEcDA==
-
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -4764,12 +4757,12 @@ svelte@^3.12.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.12.1.tgz#ddfacd43272ac3255907c682b74ee7d3d8b06b0c"
   integrity sha512-t29WJNjHIqfrdMcVXqIyRfgLEaNz7MihKXTpb8qHlbzvf0WyOOIhIlwIGvl6ahJ9+9CLJwz0sjhFNAmPgo8BHg==
 
-svero@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/svero/-/svero-0.5.0.tgz#61f88f8a912407df62c7d3cf8007b96becc7b743"
-  integrity sha512-5FbOERdDHve+gUbhDt0mN1lsyUD6h3bfn6P3p+CYus9C+YH5ZXx1YjU6SV+1Mnn8+Krrhl5VoVA4O5QgkjbqSQ==
+svero@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/svero/-/svero-1.0.0.tgz#3e5645e79cbf7723b505f15781c9f168eb41c318"
+  integrity sha512-vZJTunLdBGKrvYBGEj2VZTWTIl8RU7nZ70ycPuRVhTfwkXrwUkjnfMtyLnz/qSyV349rP/wG3SCHuj55UdqvZA==
   dependencies:
-    path-parser "^4.2.0"
+    abstract-nested-router "^0.1.3"
 
 tapable@^1.0.0, tapable@^1.1.0:
   version "1.1.3"
