@@ -4777,10 +4777,10 @@ svelte-loader@2.13.6:
     loader-utils "^1.1.0"
     svelte-dev-helper "^1.1.9"
 
-svelte@^3.12.1:
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.12.1.tgz#ddfacd43272ac3255907c682b74ee7d3d8b06b0c"
-  integrity sha512-t29WJNjHIqfrdMcVXqIyRfgLEaNz7MihKXTpb8qHlbzvf0WyOOIhIlwIGvl6ahJ9+9CLJwz0sjhFNAmPgo8BHg==
+svelte@^3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.14.0.tgz#c8d27df6a6dcbbe34de8a03c5031f5f899465930"
+  integrity sha512-BYUxQpkS5fODrQyVVRea8ws2mXJXonwrFVjPjaVQuBPSRtidzn55PsuXJHvAZHHpi+vxBZi/Bimrs7exADX7pA==
 
 svero@^1.0.0:
   version "1.0.0"
