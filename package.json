@@ -24,7 +24,7 @@
     "serve": "serve -s build"
   },
   "dependencies": {
-    "firebase": "^7.9.3",
+    "firebase": "^8.2.6",
     "svelte": "^3.19.1",
     "svero": "^1.0.0"
   },
