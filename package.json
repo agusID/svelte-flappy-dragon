@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "firebase": "^7.9.3",
-    "svelte": "^3.19.1",
+    "svelte": "^3.32.2",
     "svero": "^1.0.0"
   },
   "repository": "https://github.com/agusID/svelte-flappy-dragon.git"
